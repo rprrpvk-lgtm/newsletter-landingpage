@@ -36,6 +36,16 @@
     button:hover {
       background: #0056b3;
     }
+    .checkbox-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .checkbox-row input[type="checkbox"] {
+      margin-top: 4px;
+      width: auto;
+    }
   </style>
 </head>
 <body>
@@ -44,9 +54,10 @@
     <input type="text" name="name" placeholder="Name" required>
     <input type="email" name="email" placeholder="E-Mail-Adresse" required>
     <div class="checkbox-row">
-      <input type="checkbox" name="consent" required>
+      <input type="checkbox" name="Ich willige ein, dass meine Angaben (Name und E-Mail-Adresse) zum Zweck des Versands des Newsletters gespeichert und verarbeitet werden. Ich kann diese Einwilligung jederzeit per Mail widerrufen." required>
       <label>
-        Ja, ich möchte in die Mailingliste aufgenommen werden und stimme der Speicherung meiner Daten gemäß der Datenschutzerklärung zu.
+       Ich willige ein, dass meine Angaben (Name und E-Mail-Adresse) zum Zweck des Versands des Newsletters gespeichert und verarbeitet werden. 
+       Ich kann diese Einwilligung jederzeit per Mail widerrufen.
       </label>
     </div>
     <button type="submit">Anmelden</button>
