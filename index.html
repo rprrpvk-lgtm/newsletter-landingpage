@@ -41,8 +41,14 @@
 <body>
   <form action="https://formspree.io/f/mwpapraw" method="POST">
     <h2>Newsletter Anmeldung</h2>
-    <input type="text" name="name" placeholder="Dein Name" required>
-    <input type="email" name="email" placeholder="Deine E-Mail-Adresse" required>
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="email" name="email" placeholder="E-Mail-Adresse" required>
+    <div class="checkbox-row">
+      <input type="checkbox" name="consent" required>
+      <label>
+        Ja, ich möchte in die Mailingliste aufgenommen werden und stimme der Speicherung meiner Daten gemäß der Datenschutzerklärung zu.
+      </label>
+    </div>
     <button type="submit">Anmelden</button>
   </form>
 </body>
